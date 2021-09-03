@@ -1,0 +1,27 @@
+
+.titulo{
+	color: black;
+	text-align: center;
+}
+.contenedor-galeria{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	max-width: 1000px;
+	margin: auto;
+}
+.galeria__img{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 30px
+}
+.contenedor--descripcion{
+	display: flex;
+	width: 50%;
+	justify-content: space-around;
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	font-family: monospace;
+}
