@@ -89,7 +89,10 @@ if (isset($_POST['btn_buscar'])) {
 			   FROM usuarios usuario
 			   INNER JOIN roles rol ON usuario.id_rol = rol.id_rol";
 			    if( !$consulta=$con->query($query) ){
-
+                  echo json_encode($query);
+                  var_dump($query);
+                   die;
+                   exit;
 			    }else{
 			    	while ($fila=$consulta->fetch(PDO::FETCH_ASSOC))
 			    	{

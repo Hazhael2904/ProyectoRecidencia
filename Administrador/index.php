@@ -1,5 +1,4 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -32,11 +31,7 @@
 				</li>
 				<li><a href="usuarios.php">Usuarios</a>
 				</li>
-				<li><a href="login_usuario.php">Iniciar Sesión</a>
-                    <ul class="submenu">
-                    	<li><a href="../Home/cerrar_sesion.php">Cerrar Sesión</a></li>
-                    </ul>
-				</li>
+				<li><a href="../Home/cerrar_sesion.php">Cerrar Sesión</a></li>
 			</ul>
 		</nav>
 	</header>

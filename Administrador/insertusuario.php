@@ -35,7 +35,7 @@
     		echo "<script> alert('Los campos estan vacios');</script>";
     	}
     }
-    $queryroles=("SELECT CONCAT (descripcion) nombrerol, idrol FROM roles");
+    $queryroles=("SELECT CONCAT (descripcion) nombrerol, id_rol FROM roles");
     $rol=$con->query($queryroles);
 ?>
 <!DOCTYPE html>
@@ -124,11 +124,11 @@
 				</div>
 				<div class="form-group">
 					<label>Lista de Roles:</label>
-					<select name="idrol" id="">
+					<select name="id_rol" id="">
 						
 							<?php
 	                    while ($roles=$rol->fetch(PDO::FETCH_ASSOC)): ?>
-                          <option value="<?php echo $roles['idrol'];?>"><?php echo $roles['nombrerol'];?></option>
+                          <option value="<?php echo $roles['id_rol'];?>"><?php echo $roles['nombrerol'];?></option>
                  
                              <?php endWhile;?>
 

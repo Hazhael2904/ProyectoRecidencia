@@ -24,14 +24,14 @@ if (isset($_POST['btn_buscar'])) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/personalestilos.css">
 	<title>Seguimientos de los Proyectos</title>
 </head>
 <body>
 	<header>
 		<div class="logo">
-				<a href="index.php"><img src="img/logo.png" width="150" alt=""></a>
+				<a href="index.php"><img src="img/logo2020.png" width="150" alt=""></a>
 				<a href="#">C-PRO ASOCIADOS</a>
                 
 			</div>
@@ -44,18 +44,7 @@ if (isset($_POST['btn_buscar'])) {
 				<li><a href="servicios.html">Servicios</a></li>
 				<li><a href="proyectos.php">Proyectos</a>
 				</li>
-				<li><a href="#">Calendario</a>
-					<ul class="submenu">
-						<li><a href="#">Citas</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Usuarios</a>
-				</li>
-				<li><a href="login_usuario.php">Iniciar Sesión</a>
-                    <ul class="submenu">
-                    	<li><a href="../Home/cerrar_sesion.php">Cerrar Sesión</a></li>
-                    </ul>
-				</li>
+				<li><a href="../Home/cerrar_sesion.php">Cerrar Sesión</a></li>
 			</ul>
 		</nav>
 	</header>
